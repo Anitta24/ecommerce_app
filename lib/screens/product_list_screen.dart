@@ -181,7 +181,7 @@ class ProductListScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Electronic Devices'),
+        title: const Text('Cosmetic Store'),
         actions: [
           IconButton(
             icon: const Icon(Icons.logout),

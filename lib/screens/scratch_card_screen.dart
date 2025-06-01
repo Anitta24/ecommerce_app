@@ -6,7 +6,6 @@ import '../providers/cart_provider.dart';
 import 'product_list_screen.dart';
 import '../models/product.dart';
 
-import 'scratch_card_screen.dart';
 
 
 
