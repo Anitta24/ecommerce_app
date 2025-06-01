@@ -13,15 +13,17 @@ Features
 
 ## 🛠️ Tech Stack
 
-- Framework: Flutter (Dart)
-- OTP: Fake/random OTP generator
-- PDF Generation: `pdf` and `printing` packages
-- State Management: `Provider`
-- Local Storage: `path_provider`, `permission_handler`
+- **Framework:** Flutter (Dart)
+- **OTP:** Fake/random OTP generator
+- **PDF Generation:** `pdf` and `printing` packages
+- **State Management:** `Provider`
+- **Local Storage:** `path_provider`, `permission_handler`
 
+---
 
 ## 📁 Project Structure
 
+```
 lib/
 ├── main.dart
 ├── models/
@@ -42,7 +44,9 @@ lib/
 │   ├── auth_service.dart
 │   ├── fake_otp_service.dart
 │   └── pdf_generator.dart
+```
 
+---
 
 ## 🧪 How to Run
 
@@ -52,35 +56,41 @@ lib/
 
 ### Steps
 
-1. Clone or extract project
-   bash
+1. **Clone or extract project**  
+   ```bash
    git clone <https://github.com/Anitta24/ecommerce_app>
    cd ecommerce_app
-   
+   ```
 
-2. Install dependencies 
-   bash
+2. **Install dependencies**  
+   ```bash
    flutter pub get
-   
+   ```
 
-3. Run app
-   bash
+3. **Run app**  
+   ```bash
    flutter run
-   
+   ```
+
+---
+
 ## 📝 Note
 
 - The OTP authentication is simulated using a fake random OTP. There is no backend or Firebase integration.
 - Scratch card appears only once after registration and will not reappear on relaunch.
 - PDF receipt is stored locally with a timestamped filename.
 
+---
+
 ## 📄 License
 
 This app was developed for educational and demonstration purposes only as part of a technical assessment.
 
+---
+
 ## 👨‍💻 Author
 
-Submitted for: WHITE MATRIX Solutions, Infopark, Thrissur  
-
+Submitted for: **WHITE MATRIX Solutions**, Infopark, Thrissur  
 
 
 
